@@ -20,6 +20,6 @@ public class Pokemon {
     @Column(name = "name")
     private String name;
 
-    @Column(name = "font_default")
+    @Column(name = "front_default")
     private String frontDefault;
 }
