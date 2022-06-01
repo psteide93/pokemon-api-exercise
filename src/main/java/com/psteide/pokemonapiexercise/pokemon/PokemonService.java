@@ -28,7 +28,7 @@ public class PokemonService {
         if (foundResource.isPresent()) {
             Pokemon updatedResource = foundResource.get();
             updatedResource.setName(pokemon.getName());
-            updatedResource.setFrontDefault(pokemon.getFrontDefault());
+            // updatedResource.setFrontDefault(pokemon.getFrontDefault());
 
             pokemonRepository.save(updatedResource);
             return Optional.of(updatedResource);

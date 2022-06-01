@@ -67,7 +67,7 @@ public class PokemonController {
 
     private Map<String, Pokemon> createHashSingular(Pokemon pokemon) {
         Map<String, Pokemon> response = new HashMap<String, Pokemon>();
-        response.put("someResource", pokemon);
+        response.put("pokemon", pokemon);
 
         return response;
     }
