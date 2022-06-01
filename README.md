@@ -2,7 +2,7 @@
 
 ### Deployed Links
 
-Pokemon List: https://psteide-pokemon-api.herokuapp.com/api/pokemon/
+Pokemon List: https://psteide-pokemon-api.herokuapp.com/api/pokemon/  
 Single Pokemon: https://psteide-pokemon-api.herokuapp.com/api/pokemon/1
 
 Your task is to build and deploy an API to create, read, update, and delete Pokemon. The API should:
